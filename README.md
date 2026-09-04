@@ -12,10 +12,10 @@ GND is the reference point for the vast majority of circuits and electronic desi
 
 ## PCB Design
 Here is the image of the PCB on KiCad. 
-<img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/a9421447-65b7-452d-8884-12a277ccc24a" />
+<img width="850" height="600" alt="image" src="https://github.com/user-attachments/assets/a9421447-65b7-452d-8884-12a277ccc24a" />
 
 Here as such, is the wiring of the PCB. It is quite straightforward, mainly having the Arduino Nano
-<img width="1000" height="400" alt="image" src="https://github.com/user-attachments/assets/649e0f7c-1678-4fcc-9877-82ba442761fb" />
+<img width="650" height="400" alt="image" src="https://github.com/user-attachments/assets/649e0f7c-1678-4fcc-9877-82ba442761fb" />
 
 Using this as reference for Arduino Code https://lastminuteengineers.com/arduino-nano-pinout/ we can then code for communication to the other two embedded systems.
 
