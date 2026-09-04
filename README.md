@@ -1,14 +1,24 @@
 # PCBTest1
 
-# MAX30102
+## MAX30102
 
-# SSD1306
+## SSD1306
 The SSD1306 is a OLED display, mainly used to display information to the user when communicating with the interface. It communicates using the I2C protocol, which means only 4 connections are needed, generally as GND, VCC or VDD, SCL, and SDA.
 
-# What is GND, VCC, SCL and SDA?
+## What is GND, VCC, SCL and SDA?
 GND is the reference point for the vast majority of circuits and electronic designs, often as 0V. This is generally to keep circuits consistent and prevent uneven voltage points throughout circuit designs. VCC is generally the voltage potential of a source, often a battery of sorts. SCL is serial clock line, which mainly works as a clock or pulse in sending signals. Lastly, SDA is serial data access, which carries data bits.
 
-# What is I2C?
+## What is I2C?
+
+## PCB Design
+Here is the image of the PCB on KiCad. 
+<img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/a9421447-65b7-452d-8884-12a277ccc24a" />
+
+Here as such, is the wiring of the PCB. It is quite straightforward, mainly having the Arduino Nano
+<img width="1000" height="400" alt="image" src="https://github.com/user-attachments/assets/649e0f7c-1678-4fcc-9877-82ba442761fb" />
+
+Using this as reference for Arduino Code https://lastminuteengineers.com/arduino-nano-pinout/ we can then code for communication to the other two embedded systems.
+
 
 sources <br/>
 https://www.youtube.com/@HTMWorkshop <-- PCB design <br/>
