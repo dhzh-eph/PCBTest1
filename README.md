@@ -17,7 +17,7 @@ Here is the image of the PCB on KiCad.
 Here as such, is the wiring of the PCB. It is quite straightforward, mainly having the Arduino Nano power the other two embedded devices, and connected to their four core terminals. <br/>
 <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/649e0f7c-1678-4fcc-9877-82ba442761fb" /> 
 
-Using this as reference for Arduino Code https://lastminuteengineers.com/arduino-nano-pinout/ we can then code for communication to the other two embedded systems.
+Using this as reference for Arduino Code https://lastminuteengineers.com/arduino-nano-pinout/ we can then code for communication to the other two embedded systems. One thing to note is that the Arduino Nano being used here only works with ATega328P (Old Bootloader). This depends on whether the Arduino Nano's being used are older and cheaper or newer.
 
 
 sources <br/>
